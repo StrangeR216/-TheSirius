@@ -24,7 +24,6 @@ client.on('message', message => {
     message.reply(message.author.avatarURL);
   }
 });
-
-// Log our bot in using the token from https://discordapp.com/developers/applications/me
+//THIS MUST BE THIS WAY
 client.login(process.env.BOT_TOKEN);
 
